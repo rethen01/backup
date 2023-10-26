@@ -5,7 +5,7 @@ export REPOSITORY="borg@192.168.56.160:/var/backup"
 
 
 # Fill in your password here, borg picks it up automatically
-export BORG_PASSPHRASE="Qwe12345"
+export BORG_PASSPHRASE="need change"
 
 # Backup all of /home except a few excluded directories and files
 borg create -v --stats --compression lz4                 \
